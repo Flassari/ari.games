@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html, body {
+	line-height: 1.25;
+	font-family: 'Oxygen', sans-serif;
+}
+
+body {
+	background: white;
+	font-family: Arial;
+}
+
+#title {
+	display: block;
+	font-size: 55px;
+	color: white;
+	background: #4a0308;
+	text-align: center;
+	padding: 30px 0;
+	margin-bottom: 50px;
+}
+
+#presentations {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+#presentations h2 {
+	text-align: center;
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+#presentations .presentation_block {
+	background: #eeeeee;
+	display: flex;
+	flex-direction: column;
+	min-height: 200px;
+	padding: 10px;
+	margin-bottom: 40px;
+}
+
+#presentations .presentation_title {
+	font-size: 24px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+#presentations .presentation_content {
+	display: flex;
+	flex-direction: row;
+}
+
+#presentations .thumbnail {
+	width: 150px;
+	margin-right: 15px;
+}
+
+#presentations .presentation_description span {
+	display: block;
+	min-height: 90px;
+}
+
+#presentations .presentation_download_icons {
+	display: flex;
+	flex-direction: row;
+	padding-top: 10px;
+	
+}
+#presentations .presentation_download_icons a {
+	margin: 0 5px;
+}
+
+#presentations .presentation_download_icons a img {
+	height: 50px;
+}
