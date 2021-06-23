@@ -34,18 +34,18 @@ body {
 	margin-bottom: 50px;
 }
 
-#presentations {
+.section {
 	max-width: 800px;
 	margin: 0 auto;
 }
 
-#presentations h2 {
+.section h2 {
 	text-align: center;
 	font-size: 32px;
 	margin-bottom: 20px;
 }
 
-#presentations .presentation_block {
+.section .section_block {
 	background: #eeeeee;
 	display: flex;
 	flex-direction: column;
@@ -54,38 +54,38 @@ body {
 	margin-bottom: 40px;
 }
 
-#presentations .presentation_title {
+.section .block_title {
 	font-size: 24px;
 	text-align: center;
 	font-weight: bold;
 	padding-bottom: 10px;
 }
 
-#presentations .presentation_content {
+.section .block_content {
 	display: flex;
 	flex-direction: row;
 }
 
-#presentations .thumbnail {
+.section .thumbnail {
 	width: 150px;
 	margin-right: 15px;
 }
 
-#presentations .presentation_description span {
+.section .block_description span {
 	display: block;
 	min-height: 90px;
 }
 
-#presentations .presentation_download_icons {
+.section .block_download_icons {
 	display: flex;
 	flex-direction: row;
 	padding-top: 10px;
 	
 }
-#presentations .presentation_download_icons a {
+.section .block_download_icons a {
 	margin: 0 5px;
 }
 
-#presentations .presentation_download_icons a img {
+.section .block_download_icons a img {
 	height: 50px;
 }
